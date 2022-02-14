@@ -1,0 +1,12 @@
+Basico do HTML
+
+Sempre fechar com </(e o comando); Ex: <h1> TEXTO TESTE</h1>
+<h1-6> = Seria o cabeçalho, ou um titulo no site, quanto maior o numero depois do <h> menor sera o tamanho da letra
+<br> = Usado para pular uma linha
+<p> = usado para definir um paragrafo
+<hr> = Uma linha horizontal
+<b> ou <strong>(sendo esse o mais recomendado) usado para colocar o texto em negrito, <i> ou <em> (sendo este o mais recomendado) usado para colocar o texto em italico, <u> usado para criar uma underline em baixo de letras, <strike> usado para colocar uma linha no meio das letras, como se desse um sentido de errado
+<ul> = Lista não ordenada, para mudarmos o tipo colocamos <ul type="E o tipo", tipos: circle, square, disc
+<ol> = lista ordenada, para mudarmos o tipo colocamos <ol type="E o tipo", tipos: 1, A, a, I, i
+<li> = Para adicionar itens a lista
+<!-- --> = para adicionar um comentario no codigo  
