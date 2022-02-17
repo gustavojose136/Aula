@@ -11,3 +11,5 @@ Sempre fechar com </(e o comando); Ex: <h1> TEXTO TESTE</h1>
 <li> = Para adicionar itens a lista
 <!-- --> = para adicionar um comentario no codigo  
 img src="" = usado para inserir imagens, onde dentro do src colocamos o local da imagen/gif, seja ela por link de internet ou local no computador
+width = largura da imagem, usada no final do codigo do img
+height = Altura da imagem, usada no final do codigo do img
