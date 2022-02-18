@@ -11,6 +11,7 @@ Sempre fechar com </(e o comando); Ex: <h1> TEXTO TESTE</h1>
 <li> = Para adicionar itens a lista
 <!-- --> = para adicionar um comentario no codigo  
 img src="" = usado para inserir imagens, onde dentro do src colocamos o local da imagen/gif, seja ela por link de internet ou local no computador
+
 <a href=""></a> = usado para colocar um link em uma pagina, onde depois do href colocamos o link do local do site, e dentro do >colocamos o nome que ira apareer no site<a
 <table> = usado para abrir uma tabela
 <table border="5"> = usamos este comando para definir a borda da tabela
@@ -19,3 +20,4 @@ img src="" = usado para inserir imagens, onde dentro do src colocamos o local da
         <td> aaa </td>  ---> e o td e o que tem dentro da tabela, ou seja o conteudo, se adicionarmos colspan depois do td, ela ira 'comer' uma linha na lateral, se adicionarmos rowspan depois do td, ele ira 'comer' a linha de baixo
     </tr>                   ↳ Se substituirmos o td por th, vamo ter o cabeçalho da lista, ou seja, ela vai ficar em negrito e destacada
     </table>
+
