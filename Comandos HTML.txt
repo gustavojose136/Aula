@@ -20,4 +20,11 @@ img src="" = usado para inserir imagens, onde dentro do src colocamos o local da
         <td> aaa </td>  ---> e o td e o que tem dentro da tabela, ou seja o conteudo, se adicionarmos colspan depois do td, ela ira 'comer' uma linha na lateral, se adicionarmos rowspan depois do td, ele ira 'comer' a linha de baixo
     </tr>                   ↳ Se substituirmos o td por th, vamo ter o cabeçalho da lista, ou seja, ela vai ficar em negrito e destacada
     </table>
+<form> = usado para abrir um formulario, se adicionarmos um action depois do form, ele ira mandar para uma pagina setada
+ <form> = estrutura de um formulario
+        Login:<br>  ----->Nome escrito em cima 
+        <input type="text" name="login"> -----> temos o tipo do formulario, e o nome para usarmos durante o codigo. 
 
+    </form>
+Tipos de formulario: text(texto padrão), password(usado em senhas, onde podemos ocultar a senha), button(botao), submit(usado para enviar informações)
+↳ se adicionarmos o value depois do type, poderemos escolher oque vai estar dentro do formulario, usado mais na função do botão e o submit
