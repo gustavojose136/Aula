@@ -26,5 +26,16 @@ img src="" = usado para inserir imagens, onde dentro do src colocamos o local da
         <input type="text" name="login"> -----> temos o tipo do formulario, e o nome para usarmos durante o codigo. 
 
     </form>
-Tipos de formulario: text(texto padrão), password(usado em senhas, onde podemos ocultar a senha), button(botao), submit(usado para enviar informações)
+Tipos de formulario: text(texto padrão), password(usado em senhas, onde podemos ocultar a senha), button(botao), submit(usado para enviar informações), radio(como se fosse para escolher algo em bolinha), checkboc(escolher algom em quadrado)
 ↳ se adicionarmos o value depois do type, poderemos escolher oque vai estar dentro do formulario, usado mais na função do botão e o submit
+<select> = usado para escolher alguns itens em listagem, (exemplo nos estados)
+<select name="estado">
+            <option value="sp">Sp</option>
+            <option value="rj">Rj</option>
+            <option value="sc">Sc</option>
+            
+</select>
+<textarea = usado para o usuario colocar algum texto(Exemplo: alguns sites usam como obsevacao)
+<textarea name="observacoes" rows="10" cols="50"></textarea> = sendo rows= a altura, e o cols a largura da caixa
+se colocarmos o align no codigo, escolhemos o alinhamento(podendo ser right, left. center)
+Se colocarmos background no codigo, escolhemos o fundo, podendo ser imagem ou cor
