@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var nome = prompt("Qual o seu nome? ")
+        var altura = prompt("Qual a sua altura?(em cm) ")
+        var peso = prompt("Qual o seu peso?(em kg) ")
+
+        altura = parseFloat(altura)
+        peso = parseFloat(peso)
+
+        altura = altura/100
+        var m = peso/(altura*altura)
+       
+        if(m<16){
+            document.write("Ola " + nome + " ,O seu indice de IMC e igual a: " + m + " , e voce esta com Baixo peso muito grave")
+        }else if(m>=16 && m<=16.99){
+            document.write("Ola " + nome + " ,O seu indice de IMC e igual a: " + m + " , e voce esta com Baixo peso grave")
+        }else if(m>=17 && m<=18.49){
+            document.write("Ola " + nome + " ,O seu indice de IMC e igual a: " + m + " , e voce esta com Baixo peso")
+        }else if(m>=18.50 && m<=24.99){
+            document.write("Ola " + nome + " ,O seu indice de IMC e igual a: " + m + " , e voce esta com Peso normal")
+        }else if(m>=25 && m<=29.99){
+            document.write("Ola " + nome + " ,O seu indice de IMC e igual a: " + m + " , e voce esta com sobrepeso")
+        }else if(m>=30 && m<=34.99){
+            document.write("Ola " + nome + " ,O seu indice de IMC e igual a: " + m + " , e voce esta com Obesidade grau I")
+        }else if(m>=35 && m<=39.99){
+            document.write("Ola " + nome + " ,O seu indice de IMC e igual a: " + m + " , e voce esta com Obesidade grau II")
+        }else if(m>=40){
+            document.write("Ola " + nome + " ,O seu indice de IMC e igual a: " + m + " , e voce esta com Obesidade grau III")
+        }
+    </script>
+</body>
+</html>
